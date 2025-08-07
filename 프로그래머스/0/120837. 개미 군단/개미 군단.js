@@ -1,6 +1,6 @@
 function solution(hp) {
     let answer = 0;
-    const bigCount = hp/5; // 병정개미 구하는 계산식
+    const bigCount = hp/5; // 장군개미 구하는 계산식
     
     if(hp >= 5){
         answer = Math.floor(bigCount); // +장군개미 개수
